@@ -58,7 +58,6 @@ public class Main {
                     System.out.println("\t" + products[i] + " " + (doBonus ? counts[i] + 1 : counts[i]) + " шт. за " + (prices[i] * counts[i]) + " руб.");
                     sum += prices[i] * counts[i];
                 }
-
             }
         }
         System.out.println("Итого: " + sum / 2 + " руб.");
