@@ -59,8 +59,8 @@ public class Main {
                     sum += prices[i] * counts[i];
                 }
             }
+            sum -= prices[i] * counts[i];
         }
-        System.out.println("Итого: " + sum / 2 + " руб.");
+        System.out.println("Итого: " + sum + " руб.");
     }
-
 }
